@@ -1,0 +1,49 @@
+{% extends "main.html" %}
+{% block more_css %}
+  <link rel="stylesheet" href="/media/die.css?{{ version }}" />
+{% endblock %}
+
+{% block content %}
+<div id="action">
+  <div class="dice">
+    <ol class="die-list even-roll" data-roll="6" id="die">
+      <li class="die-item" data-side="1">
+        <span class="dot"></span>
+      </li>
+      <li class="die-item" data-side="2">
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item" data-side="3">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item" data-side="4">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item" data-side="5">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+      <li class="die-item" data-side="6">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+    </ol>
+  </div>
+</div>
+{% endblock %}
+{% block more_js %}
+    <script src="/media/die.js?{{ version }}"></script>
+{% endblock %}

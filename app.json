@@ -1,0 +1,11 @@
+{
+  "name": "logop3",
+  "description": "Online logopedie oefeningen.",
+  "website": "https://github.com/christophevg/logop3",
+
+  "addons" : [
+    "mongolab"
+  ],
+
+  "success_url": "/"
+}

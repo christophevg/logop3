@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.wrapper {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+div#app {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+div#action {
+  width: 200px;
+  height: 200px;
+  right: 0px;
+  position: absolute;
+}
