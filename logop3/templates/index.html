@@ -1,9 +1,63 @@
 {% extends "main.html" %}
 {% block more_css %}
   <link rel="stylesheet" href="/media/die.css?{{ version }}" />
+  <link rel="stylesheet" href="/media/flips.css?{{ version }}" />
 {% endblock %}
 
 {% block content %}
+
+<ol class="flips">
+  <li class="flip">
+    <div class="content">
+      <div class="front">front 1</div>
+      <div class="back">back 1</div>
+    </div>
+  </li>
+
+  <li class="flip">
+    <div class="content">
+      <div class="front">front 2</div>
+      <div class="back">back 2</div>
+    </div>
+  </li>
+
+  <li class="flip">
+    <div class="content">
+      <div class="front">front 3</div>
+      <div class="back">back 3</div>
+    </div>
+  </li>
+
+  <li class="flip">
+    <div class="content">
+      <div class="front">front 4</div>
+      <div class="back">back 4</div>
+    </div>
+  </li>
+
+  <li class="flip">
+    <div class="content">
+      <div class="front">front 5</div>
+      <div class="back">back 5</div>
+    </div>
+  </li>
+
+  <li class="flip">
+    <div class="content">
+      <div class="front">front 6</div>
+      <div class="back">back 6</div>
+    </div>
+  </li>
+
+  <li class="flip">
+    <div class="content">
+      <div class="front">front 7</div>
+      <div class="back">back 7</div>
+    </div>
+  </li>
+</ol>
+
+
 <div id="action">
   <div class="dice">
     <ol class="die-list even-roll" data-roll="6" id="die">
@@ -46,4 +100,5 @@
 {% endblock %}
 {% block more_js %}
     <script src="/media/die.js?{{ version }}"></script>
+    <script src="/media/flips.js?{{ version }}"></script>
 {% endblock %}
